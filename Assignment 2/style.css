@@ -74,13 +74,6 @@ i.uil-calling,
     transition: 0.8s ease-in-out;
 
 }
-i.uil-calling:hover {
-    font-size: 30px;
-}
-
-i.uil-comment-alt-message:hover {
-    font-size: 30px;
-}
 /* for mobile screens  */
 
 @media only screen and (max-width: 800px)
@@ -100,12 +93,5 @@ i.uil-comment-alt-message:hover {
         padding: 2px;
         font-size: 15px;
         transition:  0.8s ease-in-out;
-    }
-
-    i.uil-calling:hover {
-        font-size: 17px;
-    }
-    i.uil-comment-alt-message:hover {
-        font-size: 17px;
     }
 }
