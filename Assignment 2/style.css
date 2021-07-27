@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Otomanopee+One&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*NAV*/
+nav{
+    background-color: #caffbf;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+    font-size: 30px;
+    font-family: cursive;
+    margin-block-end: 0.67em;
+}
+
+.headspan {
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+ /*CONTACT*/
+.contacts{
+    border-radius: 5px;
+    position: sticky;
+    top: 13%;
+    background-color: #ffd6a5;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 32px;
+    padding-left: 10px;
+}
+/*BOX*/
+.box{
+    padding: 150px;
+    border: 2px black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.cnum{
+    margin-right: 0px;
+}
+/*CONTENT*/
+.content ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin: 15px;
+}
+
+/*unicons*/
+i.uil-user-square{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cnum{
+    float: right;
+}
+
+i.uil-calling,
+.uil-comment-alt-message{
+    padding: 10px;
+    font-size: 30px;
+    transition: 0.8s ease-in-out;
+
+}
+i.uil-calling:hover {
+    font-size: 30px;
+}
+
+i.uil-comment-alt-message:hover {
+    font-size: 30px;
+}
+/* for mobile screens  */
+
+@media only screen and (max-width: 800px)
+{
+    .content {
+        font-size: 5px;
+    }
+    i.uil-user-square {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .cnum {
+        font-size: 10px;
+    }
+    i.uil-calling,
+    .uil-comment-alt-message {
+        padding: 2px;
+        font-size: 15px;
+        transition:  0.8s ease-in-out;
+    }
+
+    i.uil-calling:hover {
+        font-size: 17px;
+    }
+    i.uil-comment-alt-message:hover {
+        font-size: 17px;
+    }
+}
