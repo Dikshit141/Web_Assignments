@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+    <title>index</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather App</title>
+    <!--External CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+        <!--Container-->
+
+        <div class="container">
+
+            <!--Card-->
+
+            <div class="content">
+
+                <!--Input Box and Button-->
+
+                <div class="searchbox">
+                    <input type="text" class="searchtag" id="search" placeholder="Enter City Name">
+                </div>
+
+                <div class="CityName">
+                    <span id="city_name">------------------</span>
+                </div>
+                
+                <div class="Date_div">
+                    <span id="Date">Friday 10 January 2020</span>
+                </div>
+
+                <div class="Temp_div">
+                    <span id="Temp" style="margin-left: -40px">--°C</span>
+                </div>
+
+                <!--Card Image and Details-->
+
+                <div class="Icon_div">
+                    <span id="icon"><img src="https://openweathermap.org/img/wn/02d@2x.png"></span>
+                </div>
+
+                <!--Some Extra Weather Details-->
+
+                <div class="Climate_div">
+                    <span id="climate">------------------</span>
+                </div>
+                
+                <!--Some More Weather Details-->
+                
+                <div class="TempRange_div">
+                    <span id="TempRange">--°C/--°C</span>
+                </div>
+       
+            </div>
+        
+        </div>
+
+        <!--External Js File-->
+        <script src="./script.js"></script>
+
+  </body>
+</html>
